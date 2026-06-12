@@ -2,4 +2,26 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 4px 16px;
+}
+
+.right-content .header-links {
+    display: flex;
+    list-style-type: none;
+    gap: 5px
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
 }
