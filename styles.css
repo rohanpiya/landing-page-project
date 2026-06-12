@@ -11,8 +11,13 @@ body {
     justify-content: space-around;
     align-items: center;
     background-color: #1F2937;
-    color: white;
     padding: 4px 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.left-content {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .right-content .header-links {
@@ -24,4 +29,40 @@ body {
 a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+.hero-section {
+   background-color: #1F2937; 
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   padding: 50px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#main-title {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+    margin: 10px 0 0 0;
+
+}
+
+.intro p {
+    margin: 0;
+    color: #E5E7EB;
+}
+
+.intro button {
+    background-color: #3882F6;
+    width: 160px;
+    border: #3882F6 solid 2px;
+    color: #F9FAF8;
+    border-radius: 5%;
+    padding: 5px 10px;
 }
