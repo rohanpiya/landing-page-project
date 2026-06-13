@@ -33,7 +33,7 @@ a {
 .hero-section {
    background-color: #1F2937; 
    display: flex;
-   justify-content: space-evenly;
+   justify-content: space-around;
    align-items: center;
    padding: 50px;
 }
@@ -72,7 +72,6 @@ a {
     flex-direction: column;
     align-items: center;
     padding: 100px 10px;
-    max-width: 100%;
     margin: 0;
 }
 
@@ -132,4 +131,47 @@ a {
     display: flex;
     justify-content: flex-end;
     font-weight: 900;
+}
+
+.action-time-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.action-time {
+    background-color: #3882F6;
+    padding: 20px 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 2%;
+    width: 100%;
+}
+
+.action-time h4 {
+    color: #F9FAF8;
+    margin: 0;
+    font-size: 24px;
+}
+
+.action-time-subline {
+    display: flex;
+    margin: 0;
+    color: #E5E7EB;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.action-time-subline button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    color: white;
+    padding: 0 20px;
+    width: 160px;
+    border-radius: 5%;
+    font-weight: bold;
+    height: 50px;
 }
